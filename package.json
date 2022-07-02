@@ -1,0 +1,44 @@
+{
+  "name": "jgb",
+  "version": "1.0.0",
+  "description": "Multi Platform BotChat Made By JustGnDev",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update-node": "npm init -y && npm i --save-dev node@17 && npm config set prefix=$(pwd)/node_modules/node && export PATH=$(pwd)/node_modules/node/bin:$PATH",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FongP/JGB-Bot.git"
+  },
+  "keywords": [
+    "JGB"
+  ],
+  "author": "JustGonDev",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/FongP/JGB-Bot/issues"
+  },
+  "homepage": "https://github.com/FongP/JGB-Bot#readme",
+  "dependencies": {
+    "ansi-colors": "^4.1.1",
+    "axios": "^0.25.0",
+    "axioss": "^0.0.1-security",
+    "chalk": "^5.0.0",
+    "cli-progress": "^3.10.0",
+    "express": "^4.17.2",
+    "fca-unofficial-force": "^10.3.13",
+    "fs": "^0.0.1-security",
+    "node-2fa": "^2.0.3",
+    "node-fetch": "^3.2.0",
+    "path": "^0.12.7",
+    "puppeteer": "",
+    "request": "^2.88.2",
+    "strip-bom": "^5.0.0"
+  },
+  "devDependencies": {
+    "node": "^17.9.1"
+  }
+}
