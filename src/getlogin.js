@@ -13,7 +13,7 @@ export default function getLoginFolder () {
     } else {
         try {
             fs.mkdirSync('./loginfile');
-            err('Can not find Login Folder')
+            er('Can not find Login Folder')
             warn('Creating Login Folder...');
             int('Created Login Folder Successfully!');
         } catch (err) {
