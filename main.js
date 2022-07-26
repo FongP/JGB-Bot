@@ -10,7 +10,7 @@ import {
 
 
 int('Thanks for using this bot!');
-int('Thís Bot Made By JustGonDev, Tnam0312 and HungVu. No Global-Ban!')
+int('This Bot Made By JustGonDev, Tnam0312 and HungVu. No Global-Ban!')
 warn('Please report any bugs to https://www.facebook.com/JustGonDev/')
 console.log('')
 
