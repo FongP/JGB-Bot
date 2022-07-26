@@ -28,6 +28,7 @@ if(process.arch != 'x64') {
 global.config = (await import("./src/getconfig.js")).default();
 global.data = (await import("./src/getdata.js")).default();
 global.lang = (await import("./src/getlang.js")).default();
+global.package = JSON.parse(fs.readFileSync(path.join("package.json")));
 
 (await import("./src/getlogin.js")).default();
 
