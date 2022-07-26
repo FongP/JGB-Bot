@@ -1,7 +1,7 @@
 {
   "name": "jgb",
   "version": "1.0.1",
-  "description": "Multi Platform BotChat Made By JustGnDev",
+  "description": "Multi Platform BotChat Made By JustGonDev",
   "main": "main.js",
   "type": "module",
   "scripts": {
