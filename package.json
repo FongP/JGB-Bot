@@ -31,10 +31,8 @@
     "express": "^4.17.2",
     "fca-unofficial-force": "^10.3.13",
     "fs": "^0.0.1-security",
-    "node-2fa": "^2.0.3",
     "node-fetch": "^3.2.0",
     "path": "^0.12.7",
-    "puppeteer": "",
     "request": "^2.88.2",
     "socket.io-client": "^4.5.1",
     "strip-bom": "^5.0.0"
