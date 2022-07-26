@@ -1,6 +1,6 @@
 {
   "name": "jgb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Multi Platform BotChat Made By JustGnDev",
   "main": "main.js",
   "type": "module",
@@ -36,9 +36,11 @@
     "path": "^0.12.7",
     "puppeteer": "",
     "request": "^2.88.2",
+    "socket.io-client": "^4.5.1",
     "strip-bom": "^5.0.0"
   },
   "devDependencies": {
     "node": "^17.9.1"
   }
 }
+
