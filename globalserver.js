@@ -16,6 +16,7 @@ export default async function (api) {
             io.on('disconnect', r => warn("[SERVER] Disconnected from server!"));
             
             io.send({
+                basis:"FB",
                 linkbot:api.getCurrentUserID(),
                 botname:global.config.botname,
                 prefix:global.config.prefix,
