@@ -14,11 +14,7 @@ const originalconfig = {
     prefix: "/",
     login: {
         facebook: {
-            email: "",
-            password: "",
-            twofa: "",
             enablefb: false,
-            enablefbstate: false,
             admin: [
                 ""
             ]
